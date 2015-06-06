@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884589B31B22899A00AEF226 /* Screen-Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 884589B21B22899A00AEF226 /* Screen-Shot.png */; };
+		884589B51B2289BD00AEF226 /* sizeClass.png in Resources */ = {isa = PBXBuildFile; fileRef = 884589B41B2289BD00AEF226 /* sizeClass.png */; };
+		88691FA91B07A1860074CA0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88691FA81B07A1860074CA0A /* Images.xcassets */; };
+		889B15051B228BCE00D2EC11 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 889B15041B228BCE00D2EC11 /* LICENSE */; };
 		88CA05EC1AE5DF870059DD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA05EB1AE5DF870059DD8C /* AppDelegate.swift */; };
 		88CA05EE1AE5DF870059DD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA05ED1AE5DF870059DD8C /* ViewController.swift */; };
 		88CA05F11AE5DF870059DD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CA05EF1AE5DF870059DD8C /* Main.storyboard */; };
-		88CA05F31AE5DF870059DD8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CA05F21AE5DF870059DD8C /* Images.xcassets */; };
 		88CA05F61AE5DF870059DD8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CA05F41AE5DF870059DD8C /* LaunchScreen.xib */; };
 		88CA06021AE5DF880059DD8C /* ShowSizeClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA06011AE5DF880059DD8C /* ShowSizeClassTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,12 +29,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		884589B21B22899A00AEF226 /* Screen-Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen-Shot.png"; sourceTree = "<group>"; };
+		884589B41B2289BD00AEF226 /* sizeClass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sizeClass.png; sourceTree = "<group>"; };
+		88691FA81B07A1860074CA0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		889B15041B228BCE00D2EC11 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88CA05E61AE5DF870059DD8C /* ShowSizeClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowSizeClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CA05EA1AE5DF870059DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88CA05EB1AE5DF870059DD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CA05ED1AE5DF870059DD8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88CA05F01AE5DF870059DD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88CA05F21AE5DF870059DD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88CA05F51AE5DF870059DD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		88CA05FB1AE5DF880059DD8C /* ShowSizeClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSizeClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CA06001AE5DF880059DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,11 +83,8 @@
 		88CA05E81AE5DF870059DD8C /* ShowSizeClass */ = {
 			isa = PBXGroup;
 			children = (
-				88CA05EB1AE5DF870059DD8C /* AppDelegate.swift */,
 				88CA05ED1AE5DF870059DD8C /* ViewController.swift */,
 				88CA05EF1AE5DF870059DD8C /* Main.storyboard */,
-				88CA05F21AE5DF870059DD8C /* Images.xcassets */,
-				88CA05F41AE5DF870059DD8C /* LaunchScreen.xib */,
 				88CA05E91AE5DF870059DD8C /* Supporting Files */,
 			);
 			path = ShowSizeClass;
@@ -90,7 +93,13 @@
 		88CA05E91AE5DF870059DD8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88CA05F41AE5DF870059DD8C /* LaunchScreen.xib */,
+				88CA05EB1AE5DF870059DD8C /* AppDelegate.swift */,
+				88691FA81B07A1860074CA0A /* Images.xcassets */,
 				88CA05EA1AE5DF870059DD8C /* Info.plist */,
+				884589B41B2289BD00AEF226 /* sizeClass.png */,
+				884589B21B22899A00AEF226 /* Screen-Shot.png */,
+				889B15041B228BCE00D2EC11 /* LICENSE */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +170,7 @@
 				TargetAttributes = {
 					88CA05E51AE5DF870059DD8C = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 7P9362E76E;
 					};
 					88CA05FA1AE5DF880059DD8C = {
 						CreatedOnToolsVersion = 6.3;
@@ -192,9 +202,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889B15051B228BCE00D2EC11 /* LICENSE in Resources */,
+				88691FA91B07A1860074CA0A /* Images.xcassets in Resources */,
+				884589B51B2289BD00AEF226 /* sizeClass.png in Resources */,
+				884589B31B22899A00AEF226 /* Screen-Shot.png in Resources */,
 				88CA05F11AE5DF870059DD8C /* Main.storyboard in Resources */,
 				88CA05F61AE5DF870059DD8C /* LaunchScreen.xib in Resources */,
-				88CA05F31AE5DF870059DD8C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShowSizeClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShowSizeClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +426,7 @@
 				88CA06071AE5DF880059DD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88CA06081AE5DF880059DD8C /* Build configuration list for PBXNativeTarget "ShowSizeClassTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +435,7 @@
 				88CA060A1AE5DF880059DD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
