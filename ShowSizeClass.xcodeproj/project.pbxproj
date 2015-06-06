@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881CC4A01B22BA6C00A7F3B3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 881CC49F1B22BA6C00A7F3B3 /* README.md */; };
 		884589B31B22899A00AEF226 /* Screen-Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 884589B21B22899A00AEF226 /* Screen-Shot.png */; };
 		884589B51B2289BD00AEF226 /* sizeClass.png in Resources */ = {isa = PBXBuildFile; fileRef = 884589B41B2289BD00AEF226 /* sizeClass.png */; };
 		88691FA91B07A1860074CA0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88691FA81B07A1860074CA0A /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		881CC49F1B22BA6C00A7F3B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		884589B21B22899A00AEF226 /* Screen-Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen-Shot.png"; sourceTree = "<group>"; };
 		884589B41B2289BD00AEF226 /* sizeClass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sizeClass.png; sourceTree = "<group>"; };
 		88691FA81B07A1860074CA0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -85,6 +87,12 @@
 			children = (
 				88CA05ED1AE5DF870059DD8C /* ViewController.swift */,
 				88CA05EF1AE5DF870059DD8C /* Main.storyboard */,
+				881CC49F1B22BA6C00A7F3B3 /* README.md */,
+				889B15041B228BCE00D2EC11 /* LICENSE */,
+				88691FA81B07A1860074CA0A /* Images.xcassets */,
+				884589B41B2289BD00AEF226 /* sizeClass.png */,
+				884589B21B22899A00AEF226 /* Screen-Shot.png */,
+				88CA05F41AE5DF870059DD8C /* LaunchScreen.xib */,
 				88CA05E91AE5DF870059DD8C /* Supporting Files */,
 			);
 			path = ShowSizeClass;
@@ -93,13 +101,8 @@
 		88CA05E91AE5DF870059DD8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				88CA05F41AE5DF870059DD8C /* LaunchScreen.xib */,
 				88CA05EB1AE5DF870059DD8C /* AppDelegate.swift */,
-				88691FA81B07A1860074CA0A /* Images.xcassets */,
 				88CA05EA1AE5DF870059DD8C /* Info.plist */,
-				884589B41B2289BD00AEF226 /* sizeClass.png */,
-				884589B21B22899A00AEF226 /* Screen-Shot.png */,
-				889B15041B228BCE00D2EC11 /* LICENSE */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881CC4A01B22BA6C00A7F3B3 /* README.md in Sources */,
 				88CA05EE1AE5DF870059DD8C /* ViewController.swift in Sources */,
 				88CA05EC1AE5DF870059DD8C /* AppDelegate.swift in Sources */,
 			);
